@@ -14,3 +14,23 @@ document.querySelectorAll('.nav-links a').forEach(link => {
         }
     });
 });
+
+// Hero text motion effect
+const heroText = document.querySelector('.hero-content h1');
+const heroBtn = document.querySelector('.hero-content .btn');
+
+if(heroText && heroBtn){
+  heroText.addEventListener('mouseover', () => {
+    heroText.style.transform = 'scale(1.05)';
+  });
+  heroText.addEventListener('mouseout', () => {
+    heroText.style.transform = 'scale(1)';
+  });
+
+  heroBtn.addEventListener('mouseover', () => {
+    heroBtn.style.transform = 'scale(1.05)';
+  });
+  heroBtn.addEventListener('mouseout', () => {
+    heroBtn.style.transform = 'scale(1)';
+  });
+}
