@@ -1,69 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Asma Web Design</title>
-    <meta name="description" content="See sample projects from Asma Web Design for small businesses.">
-    <meta property="og:title" content="Asma Web Design - Portfolio">
-    <meta property="og:description" content="Explore our web design projects.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Asma Web Design</title>
+  <meta name="description" content="Browse the portfolio of Asma Web Design, showcasing modern websites for small businesses.">
+  <meta property="og:title" content="Asma Web Design - Portfolio">
+  <meta property="og:description" content="See our web design projects for local businesses.">
+  <meta property="og:image" content="images/portfolio.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
-    <div class="container header-container">
-        <div class="logo">Asma Web Design</div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html" class="active">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
-        </nav>
-    </div>
+  <div class="container header-container">
+    <div class="logo">Asma Web Design</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </div>
 </header>
 
-<section class="portfolio">
-    <div class="container">
-        <h1>Our Portfolio</h1>
-        <div class="portfolio-grid">
-            <div class="portfolio-card">
-                <img src="https://images.unsplash.com/photo-1599933372672-b94fd689f5e5?auto=format&fit=crop&w=800&q=80" alt="Project 1 - Beauty Salon Website">
-                <h3>Beauty Salon Website</h3>
-            </div>
-            <div class="portfolio-card">
-                <img src="https://images.unsplash.com/photo-1588776814546-98d78bb9c3de?auto=format&fit=crop&w=800&q=80" alt="Project 2 - Clinic Website">
-                <h3>Clinic Website</h3>
-            </div>
-            <div class="portfolio-card">
-                <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80" alt="Project 3 - Restaurant Website">
-                <h3>Restaurant Website</h3>
-            </div>
-            <div class="portfolio-card">
-                <img src="https://images.unsplash.com/photo-1581090700227-1a3179c2f9e6?auto=format&fit=crop&w=800&q=80" alt="Project 4 - Consultant Website">
-                <h3>Consultant Website</h3>
-            </div>
-        </div>
+<section class="portfolio-page">
+  <div class="container">
+    <h1>Our Portfolio</h1>
+    <p>Here are some of our recent projects. Click "View Project" to see more details.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4430d9?auto=format&fit=crop&w=600&q=80" alt="Restaurant Website">
+        <h3>Local Restaurant Website</h3>
+        <p>Menu showcase, reservation form, modern layout for restaurants.</p>
+        <a href="https://example.com/project1" target="_blank" class="btn btn-secondary">View Project</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1587614382346-4ec69e2fc3fc?auto=format&fit=crop&w=600&q=80" alt="Salon Website">
+        <h3>Beauty Salon Website</h3>
+        <p>Gallery, service list, appointment booking system.</p>
+        <a href="https://example.com/project2" target="_blank" class="btn btn-secondary">View Project</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1573164574392-d4ab0b56c2a0?auto=format&fit=crop&w=600&q=80" alt="Clinic Website">
+        <h3>Medical Clinic Website</h3>
+        <p>Responsive, user-friendly design with appointment booking.</p>
+        <a href="https://example.com/project3" target="_blank" class="btn btn-secondary">View Project</a>
+      </div>
     </div>
+
+    <div class="text-center">
+      <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+    </div>
+  </div>
 </section>
 
 <footer>
-    <div class="container footer-container">
-        <p>&copy; 2026 Asma Web Design</p>
-        <p>Email: info@asmawebdesign.com | Follow us: 
-            <a href="#"><i class="fab fa-facebook"></i></a> 
-            <a href="#"><i class="fab fa-instagram"></i></a> 
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-        </p>
-    </div>
+  <div class="container footer-container">
+    <p>&copy; 2026 Asma Web Design</p>
+    <p>Email: info@asmawebdesign.com | Follow us: 
+      <a href="#"><i class="fab fa-facebook"></i></a> 
+      <a href="#"><i class="fab fa-instagram"></i></a> 
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </p>
+  </div>
 </footer>
 
 <script src="script.js"></script>
